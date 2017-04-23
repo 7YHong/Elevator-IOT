@@ -1001,7 +1001,7 @@
 
 // <e> SPI2 (Serial Peripheral Interface 2) [Driver_SPI2]
 // <i> Configuration settings for Driver_SPI2 in component ::CMSIS Driver:SPI
-#define RTE_SPI2                        0
+#define RTE_SPI2                        1
 
 //   <e> SPI2_NSS Pin
 //   <i> Configure Pin if exists
@@ -1012,7 +1012,7 @@
 //     <o2> Bit <0-15>
 //     <i>  Selects Port Bit
 //   </e>
-#define RTE_SPI2_NSS_PIN                1
+#define RTE_SPI2_NSS_PIN                0
 #define RTE_SPI2_NSS_PORT               GPIO_PORT(1)
 #define RTE_SPI2_NSS_BIT                12
 

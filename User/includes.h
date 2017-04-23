@@ -1,6 +1,5 @@
 #ifndef _INCLUDES_H
 #define _INCLUDES_H
-#endif
 
 #include "RTE_Components.h"
 #include  CMSIS_device_header
@@ -9,3 +8,6 @@
 #include "GPIOLIKE51.h"
 #include "bsp.h"
 #include "usart.h"
+#include "spi.h"
+
+#endif
