@@ -5,9 +5,13 @@
 #include  CMSIS_device_header
 #include "cmsis_os2.h"
 #include "stdio.h"
+#include "stdbool.h"
+#include "string.h"
+
 #include "GPIOLIKE51.h"
 #include "bsp.h"
 #include "usart.h"
 #include "spi.h"
+#include "key.h"
 
 #endif

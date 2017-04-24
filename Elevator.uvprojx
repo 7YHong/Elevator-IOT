@@ -414,6 +414,36 @@
               <FileType>1</FileType>
               <FilePath>.\User\bsp.c</FilePath>
             </File>
+            <File>
+              <FileName>elevator.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\elevator.c</FilePath>
+            </File>
+            <File>
+              <FileName>elevator.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\elevator.h</FilePath>
+            </File>
+            <File>
+              <FileName>spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>key.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\key.h</FilePath>
+            </File>
+            <File>
+              <FileName>key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\key.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
