@@ -2,10 +2,11 @@
 #define _USART_H
 
 //如果想串口中断接收，请不要注释以下宏定义
-#define USART1_RX_EN 0 //使能串口1接收
-#define USART3_RX_EN 0 //使能串口3接收
-#define USART_PC USART3 //与PC连接的串口
+#define USART_WIFI USART3 //与PC连接的串口
+#define USART_PC USART1 //与PC连接的串口
+#define USART_DEBUG 1		//调试模式会将串口消息原样发送给电脑，还会把收到的消息发送到串口3
 
-void Uprint(USART_TypeDef* USARTx,unsigned char * str);
+void PCprint(char * str);
+void Uprint(char * str);
 
 #endif

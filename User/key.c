@@ -1,26 +1,5 @@
 #include "includes.h"
 
-void KEY_Init(void) {
-
-    GPIO_InitTypeDef GPIO_InitStructure;
-
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);//使能GPIOA
-
-    /*
-    // A0-A3为输入
-    */
-    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0 | GPIO_Pin_1 | GPIO_Pin_2 | GPIO_Pin_3; //4列对应引脚
-    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPD; //普通入模式
-    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_10MHz;//100M
-    GPIO_Init(GPIOA, &GPIO_InitStructure);
-    /*
-    // A4-A7为输出
-    */
-    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_4 | GPIO_Pin_5 | GPIO_Pin_6 | GPIO_Pin_7; //4行对应引脚
-    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_10MHz;
-    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-    GPIO_Init(GPIOA, &GPIO_InitStructure);
-}
 
 short KeyScan(void) { //实现矩阵键盘。返回值为KeyVal，各按键的键值，此键值由用户自己定义。
 

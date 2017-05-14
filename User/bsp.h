@@ -9,5 +9,6 @@ typedef struct{
 void GPIO_Configuration(void);
 void USART_Configuration(void);
 void NVIC_Configuration(void);
-
+void SPI_Configuration(void);
+void KEY_Init(void);
 #endif
